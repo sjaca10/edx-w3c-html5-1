@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple HTML5 blog</title>
+        <link rel="stylesheet" href="blog.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Simple <span>HTML5</span> blog
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <span>
+                        Blog
+                    </span>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <section>
+            <article>
+                <header>
+                    <h2>
+                        <a href="">
+                            Information about this example
+                        </a>
+                    </h2>
+                    This example is a modified version of a
+                    <a href="http://netstream.ru/htmlsamples/html5-blog/index.html">
+                        http://netstream.ru/htmlsamples/html5-blog/index.html
+                    </a>
+                </header>
+                <p>
+                    Try to move the mouse on different elements. The structure will be highlighted and you will be
+                    able to see the different inclusions of elements one in each other. If you move the cursor to
+                    this sentence, it will be highlighted in dark grey, showing the presence of an &lt;article&gt;
+                    element, surrounded by a &lt;section&gt; element (light grey), etc. So we have some articles in a
+                    single section element. The page title at the top is a &lt;header&gt; element, while the tag cloud
+                    on the right is a &lt;aside&gt; element. The main menu on top (with Blog, About, Contact) is a
+                    &lt;nav&gt; element.
+                </p>
+                <figure>
+                    <img src="http://www.fredcavazza.net/files/2009/09/html5_structure.png"
+                        alt="Example of HTML5 structural tags" />
+                    <figcaption>
+                        Fig. 1 : an example of how new structural elements could be used. This page put a &lt;nav&gt; on
+                        top, and does not have headers and footer for each article, like in this figure, but it
+                        could... By the way this is a &lt;figcaption&gt; inside a &lt;figure&gt; element...
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+        <aside>
+            <h2>
+                Tag cloud
+            </h2>
+            <ul class="tag-cloud">
+                <li>
+                    <a href="" rel="tag">
+                        AJAX
+                    </a>
+                </li>
+                <li>
+                    <a href="" rel="tag">
+                        Apple
+                    </a>
+                </li>
+                <li>
+                    <a href="" rel="tag">
+                        CSS
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <footer>
+            <p>
+                2009 Some blog
+            </p>
+        </footer>
+    </body>
+</html>
