@@ -1,0 +1,9 @@
+#w3devCampusVideo {
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+}
+
+#w3devCampusVideo:hover, video:focus {
+    width: 400px;
+    transform: rotate(-5deg);
+}
